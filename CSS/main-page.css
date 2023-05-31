@@ -1,0 +1,161 @@
+body{
+    font: normal 15pt arial;
+    margin: 0;
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    background-image: url(imagens/DreamShaper_v5_background_for_a_website_0.jpg);
+    background-size: cover;
+    min-width: 100vw;
+    min-height: 100vh;
+    backdrop-filter: blur(10px);
+}
+:root{
+    --basic-size: 150px;
+    --basic-color: #8C52FF;
+    --default-background-size: 150px;
+    --background-color: rgba(0, 0, 0, 0.7);
+    --easy-size: 70%;
+}
+.head-main{
+    height: 20vh;
+}
+.internal-txt{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20pt;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.name{
+    height: 60px;
+    width: 160px;
+    border-radius: 10px;
+    outline: 0;
+    border: 0;
+    position: relative;
+    top: -10px;
+    color: white;
+}
+.header-section-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.circle{
+    height:  calc(var(--basic-size) + 50px) ;
+}
+.icon-default{
+    height: 100px;
+    margin: 5px;
+    position: relative;
+    display: flex;
+}
+.back-icon-up{
+    border: solid 1px var(--basic-color);
+    height: var(--default-background-size);
+    display: flex;
+    width: 130px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 50%;
+
+}
+.main-sect{
+    position: relative;
+    /* top: -50px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.back-register-main{
+    height: 50vh;
+    width: 60vw;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.textbox-password, .textbox-email{
+    width: var(--easy-size);
+    height: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    border: solid 1px #8C52FF;
+}
+.register-main-inputs{
+
+    width: 70%;
+    position: relative;
+    display: flex;
+    align-items: left;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13pt;
+    height: 40px;
+    border: 0;
+}
+
+.register-main-inputs::placeholder{
+    color: rgba(255, 255, 255, 0.0);
+    font-family:'Courier New', Courier, monospace;
+    font-size: 13pt;
+    
+}
+.register-main-inputs:focus{
+    transform: scale(10px, 0);
+    font-size: 13pt;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    position: relative;
+    outline: 0;
+}
+.input-password{
+    position: relative;
+    display: flex;
+}
+.txt-internal-place{
+    font-size: 13pt;
+    height: 40px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+}
+input, .txt-internal-place{
+    background-color: #8c52ff00;
+
+}
+.login-redirection-txt{
+    display: block;
+    width: var(--easy-size);
+    text-align: left;
+    font-size: 12pt;
+}
+.login-redirect{
+    margin-top: 30px;
+}
+.head-main::after{
+    content: "";
+    width: 100vw;
+    height: 1px;
+    background-color: #8C52FF;
+    display: block;
+    position: relative;
+    top: -25px;
+}

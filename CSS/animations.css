@@ -1,0 +1,24 @@
+.button-submit{
+    position: relative;
+    height: 50px;
+    width: 150px;
+    background-color: #8C52FF;
+    border-radius: 10px;
+    font: bold 20pt 'Courier New';
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 20px;
+    transition: 0.5s;
+    transition-duration: 0.2s;
+    border: 0;
+}
+.button-submit:active{
+    transform: scale(1.01)
+}
+.name{
+    transition: 0.2s;
+}
+.name:active{
+    transform: scale(1.1);
+
+}
