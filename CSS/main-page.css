@@ -108,7 +108,7 @@ body{
 }
 
 .register-main-inputs::placeholder{
-    color: rgba(255, 255, 255, 0.0);
+    color: rgba(255, 255, 255, 0.4);
     font-family:'Courier New', Courier, monospace;
     font-size: 13pt;
     
