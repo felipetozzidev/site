@@ -10,6 +10,6 @@ function tomainpage()
     {
         document.getElementById("input-email").style.border = "none"
         document.getElementById("input-password").style.border = "none"
-        window.location.href = "mainpage.html"
+        window.location.href = "mainpage/main.html"
     }
 }
